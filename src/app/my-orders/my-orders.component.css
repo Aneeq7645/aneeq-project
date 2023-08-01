@@ -1,0 +1,28 @@
+.my-orders {
+  margin-bottom: 100px;
+}
+.my-orders h1 {
+  text-align: center;
+  color: blueviolet;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.my-orders .order-img {
+  width: 100px;
+}
+.my-order-button {
+  height: 35px;
+  width: 10vw;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.my-orders .row {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}

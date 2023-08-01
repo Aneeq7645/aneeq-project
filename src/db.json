@@ -1,0 +1,215 @@
+{
+  "seller": [
+    {
+      "name": "Aneeq Malik",
+      "email": "aneeqmalik645@gmail.com",
+      "password": "abc@123",
+      "id": 3
+    },
+    {
+      "name": "aneeq",
+      "email": "aneeq@gmail.com",
+      "password": "abc@123",
+      "id": 5
+    },
+    {
+      "name": "peeter",
+      "email": "peeter@gmail.com",
+      "password": "abc@123",
+      "id": 6
+    },
+    {
+      "name": "john",
+      "email": "john@gmail.com",
+      "password": "abc@123",
+      "id": 7
+    },
+    {
+      "name": "Junaid",
+      "email": "saifullahcsquare02@gmail.com",
+      "password": "abc@123",
+      "id": 16
+    },
+    {
+      "name": "Hamza Malik",
+      "email": "hamza@test.com",
+      "password": "hamza1122",
+      "id": 23
+    }
+  ],
+  "products": [
+    {
+      "name": "Samsung S20 Ultra",
+      "price": "250000",
+      "color": "white",
+      "category": "Mobile",
+      "description": "its a samsung mobile phone",
+      "Image": "https://www.pcworld.com/wp-content/uploads/2023/04/note-20-s20-ultra-back-100854197-orig-1.jpg?quality=50&strip=all&w=1024",
+      "id": 1
+    },
+    {
+      "name": "Vivo V27 5G",
+      "price": "100000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "its a vivo mobile phone",
+      "Image": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1677055984182/446e17fbfbe7e36572af5490a0cad16c.png",
+      "id": 2
+    },
+    {
+      "name": "Infinix Note 12",
+      "price": "75000",
+      "color": "Rose Gold",
+      "category": "Mobile",
+      "description": "its a infinix mobile phone",
+      "Image": "https://g-mart.pk/wp-content/uploads/Infinix-Note-12.jpg",
+      "id": 4
+    },
+    {
+      "name": "Xiaomi Redmi Note 12",
+      "price": "85000",
+      "color": "Sky Blue",
+      "category": "Mobile",
+      "description": "its a xiaomi phone",
+      "Image": "https://images.priceoye.pk/xiaomi-redmi-note-12-pakistan-priceoye-nof0g.jpg",
+      "id": 5
+    },
+    {
+      "name": "Titan Smart-2",
+      "price": "25000",
+      "color": "Gray",
+      "category": "Watch",
+      "description": "its a smart watch",
+      "Image": "https://staticimg.titan.co.in/Titan/Catalog/90155AP03_5.jpg?impolicy=pqmed&imwidth=640",
+      "id": 6
+    },
+    {
+      "name": "Lenovo Laptop",
+      "price": "80000",
+      "color": "Black",
+      "category": "Laptop",
+      "description": "Laptop System",
+      "Image": "https://www.notebookcheck.net/fileadmin/_processed_/8/f/csm_PXL_20230123_195951556_7279a4eda1.jpg",
+      "id": 7
+    },
+    {
+      "name": "Casual Shoes For Man",
+      "price": "20000",
+      "color": "Brown",
+      "category": "Shoes",
+      "description": "Branded Shoes For Man",
+      "Image": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/18274390/2022/5/14/c64644f6-840f-4496-bb42-19359e9881771652523841987RoadsterMenBrownTexturedPUSneakers1.jpg",
+      "id": 8
+    },
+    {
+      "name": "Denim Jeans",
+      "price": "4000",
+      "color": "Light Blue",
+      "category": "Jeans",
+      "description": "Denim Jeans For Man",
+      "Image": "https://d1iv6qgcmtzm6l.cloudfront.net/products/lg_BK4AWOOHfGtAgVdxMHSVPBepOp2VFBUrp9cSLfwq.png",
+      "id": 9
+    },
+    {
+      "name": "Denim Jacket",
+      "price": "9499",
+      "color": "Light Blue",
+      "category": "Jackets",
+      "description": "Mens Hooded Denim Jackets",
+      "Image": "https://ultimateleather.pk/wp-content/uploads/2021/02/Mens-Hooded-Denim-Jacket.jpg",
+      "id": 10
+    },
+    {
+      "name": "Ladies Hand Bag",
+      "price": "3999",
+      "color": "Dark Brown",
+      "category": "Hand Bag",
+      "description": "Ladies Hand Bag",
+      "Image": "https://www.floro.me/wp-content/uploads/2022/10/c28578c0-22.jpg",
+      "id": 11
+    },
+    {
+      "name": "Girls Heels",
+      "price": "8499",
+      "color": "white",
+      "category": "Heels",
+      "description": "Crystal Queen Women High Heels",
+      "Image": "https://m.media-amazon.com/images/I/61YYeJtgpoL._AC_UY1000_.jpg",
+      "id": 13
+    },
+    {
+      "name": "Kito",
+      "price": "4999",
+      "color": "Navy Blue",
+      "category": "seeleper",
+      "description": "Boys sandels",
+      "Image": "https://www.oshi.pk/images/variation/stylish-men-ultra-soft-kito-sandals-in-blue-color-for-summer-use-latest-design--16448-095.jpg",
+      "id": 14
+    },
+    {
+      "name": "DAVIDOF Perfume",
+      "price": "3499",
+      "color": "Red",
+      "category": "Perfume",
+      "description": "Mens Perfume Hot Water",
+      "Image": "https://apexworldwide.net/wp-content/uploads/2019/02/DAVIDOFF-HOT-WATER-EDT-SPRAY-110ml-rs.7800.jpg",
+      "id": 15
+    }
+  ],
+  "users": [
+    {
+      "name": "aneeq",
+      "email": "hamza@test.com",
+      "password": "hamza1122",
+      "id": 1
+    },
+    {
+      "name": "Peiter",
+      "email": "peiter@test.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "aneeq",
+      "email": "neeq@test.com",
+      "password": "abc@123",
+      "id": 3
+    }
+  ],
+  "cart": [
+    {
+      "name": "Denim Jeans",
+      "price": "4000",
+      "color": "Light Blue",
+      "category": "Jeans",
+      "description": "Denim Jeans For Man",
+      "Image": "https://d1iv6qgcmtzm6l.cloudfront.net/products/lg_BK4AWOOHfGtAgVdxMHSVPBepOp2VFBUrp9cSLfwq.png",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 9,
+      "id": 1
+    },
+    {
+      "name": "Casual Shoes For Man",
+      "price": "20000",
+      "color": "Brown",
+      "category": "Shoes",
+      "description": "Branded Shoes For Man",
+      "Image": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/18274390/2022/5/14/c64644f6-840f-4496-bb42-19359e9881771652523841987RoadsterMenBrownTexturedPUSneakers1.jpg",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 8,
+      "id": 2
+    }
+  ],
+  "orders": [
+    {
+      "email": "aneeqmalik645@gmail.com",
+      "address": "Karachi",
+      "contact": "03131117645",
+      "totalPrice": 845100,
+      "userId": 3,
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+.update-product {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: blueviolet;
+}

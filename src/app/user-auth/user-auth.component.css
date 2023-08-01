@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+  color: blueviolet;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  margin-left: -25px;
+  font-weight: 600;
+}
+.user-auth {
+  margin-bottom: 100px;
+}
+.common-form a {
+  color: blueviolet;
+  cursor: pointer;
+}
+.common-form .loginLink {
+  margin-top: 15px;
+  margin-left: -15px;
+  font-size: 12px;
+  font-weight: 600;
+}

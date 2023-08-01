@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@200&display=swap");
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.common-form {
+  text-align: center;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 300px;
+}
+.form-input {
+  height: 35px;
+  width: 20vw;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: 1px solid blueviolet;
+  color: blueviolet;
+}
+
+.form-button {
+  height: 35px;
+  width: 20vw;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.error-p {
+  color: red;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+.p-message {
+  color: green;
+  font-weight: bolder;
+}
+.carousel-caption {
+  background-color: #00000082;
+  border-radius: 5px;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+  border: 5px;
+}
+.invalid-input {
+  color: red;
+  font-size: 12px;
+  margin-top: -20px;
+  text-align: left;
+  font-weight: 600;
+}
+button:disabled {
+  cursor: not-allowed;
+}

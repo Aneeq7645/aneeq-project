@@ -1,0 +1,64 @@
+<div class="checkout">
+  <h1>Checkout</h1>
+  <div class="row">
+    <div class="col-sm-7">
+      <h3>Add shipping address</h3>
+      <p class="massage">{{ orderMsg }}</p>
+      <form
+        #orderData="ngForm"
+        class="common-form"
+        (ngSubmit)="orderNow(orderData.value)"
+      >
+        <input
+          type="text"
+          class="form-input"
+          name="email"
+          placeholder="Enter User Email"
+          ngModel
+          #email="ngModel"
+          required
+        />
+        <p class="invalid-input">
+          <span *ngIf="email.invalid && email.touched">Email is required</span>
+        </p>
+        <input
+          type="text"
+          class="form-input"
+          name="address"
+          placeholder="Enter User Address"
+          ngModel
+          #address="ngModel"
+          required
+        />
+        <p class="invalid-input">
+          <span *ngIf="address.invalid && address.touched"
+            >Address is required</span
+          >
+        </p>
+        <input
+          type="text"
+          class="form-input"
+          name="contact"
+          placeholder="Enter contact details"
+          ngModel
+          #contact="ngModel"
+          required
+          minlength="11"
+          maxlength="15"
+        />
+        <p class="invalid-input">
+          <span *ngIf="contact.invalid && contact.touched"
+            >Contact Number is required</span
+          >
+        </p>
+        <button [disabled]="orderData.invalid" class="form-button">
+          Order Now
+        </button>
+      </form>
+    </div>
+    <div class="col-sm-5">
+      <h4>Total Amount: {{ totalPrice }}</h4>
+      <h5>Payment Method : <b>Cash on delivery</b></h5>
+    </div>
+  </div>
+</div>
